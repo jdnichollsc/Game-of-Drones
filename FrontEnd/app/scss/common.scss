@@ -1,0 +1,49 @@
+@media (min-width: 680px) {
+    .bigModal {
+        top: 0px !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+    }
+    
+    .platform-ios.platform-cordova .modal-wrapper .modal {
+        
+        .bar-header:not(.bar-subheader) > * {
+            margin-top: 20px;
+        }
+        
+        .bar-header:not(.bar-subheader) {
+            height: 64px;
+        }
+        
+        .has-header, .bar-subheader {
+            top: 64px;
+        }
+    }
+}
+
+*{
+  font-family: 'Ubuntu', sans-serif !important; 
+}
+
+.center-content{	
+	display: table !important;
+	width: 100% !important;
+	height: 100% !important;
+		
+	.scroll {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.animate-item{
+	animation: fadeInLeft 1s;
+}

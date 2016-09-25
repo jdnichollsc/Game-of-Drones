@@ -1,0 +1,21 @@
+<ion-modal-view class="bigModal">
+	<ion-header-bar>
+		<h1 class="title">{{ rules.currentRule.id ? 'Edit Rule' : 'Create Rule' }}</h1>
+		<button class="button button-dark icon ion-close-round" ng-click="closeModal();"></button>
+	</ion-header-bar>
+	<ion-content>
+		<div class="list padding">
+			<label class="item item-input item-stacked-label">
+				<span class="input-label">Move</span>
+				<input type="text" placeholder="paper" ng-model="rules.currentRule.move">
+			</label>
+			<label class="item item-input item-stacked-label">
+				<span class="input-label">Kills</span>
+				<input type="text" placeholder="rock" ng-model="rules.currentRule.kills">
+			</label>
+			<button class="button button-block button-positive" ng-click="saveRule()">
+				Save
+			</button>
+		</div>
+	</ion-content>
+</ion-modal-view>

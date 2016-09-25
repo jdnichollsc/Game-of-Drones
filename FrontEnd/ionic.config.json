@@ -1,0 +1,13 @@
+{
+  "name": "App",
+  "app_id": "22a68333",
+  "v2": false,
+  "typescript": false,
+  "watch": {
+    "watch" : "app/**/*",
+    "livereload": [
+      "www/**/*",
+      "!www/lib/**/*"
+    ]
+  }
+}

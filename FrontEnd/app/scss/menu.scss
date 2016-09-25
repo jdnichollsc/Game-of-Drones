@@ -1,0 +1,69 @@
+.menu {
+    
+    ion-header-bar{
+        border: none;
+        box-shadow: none;
+        min-height: 210px;
+        color: #fff;
+        padding: 0;
+        
+        .item{
+            background-color: #206AA7;
+            border: none;
+            width: 100%;
+            padding-left: 120px;
+            padding-top: 45px;
+            
+            img{
+                max-width: 100px !important;
+                top: 25% !important;
+                left: 10px !important;
+            }
+            
+            h2, p{
+                font-family: 'Jura';
+            }
+            
+            h2{
+                font-size: 35px;
+                font-weight: bold;
+            }
+            
+            p{
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+    
+    ion-content {
+        top: 210px !important;
+        background-color: #23262a;
+        
+        // .item{
+        //     border: none;
+        //     background-color: transparent;
+        //     .item-content{
+        //         background-color: transparent;
+        //         color: white;
+        //     }
+        // }
+        
+        .item.active{
+            background-color: white !important;
+            
+            .item-content{
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.menu-open {
+    .menu {
+        ion-header-bar img{
+            animation-name: pulse;
+        }
+    }  
+}

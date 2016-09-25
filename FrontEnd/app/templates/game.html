@@ -1,0 +1,25 @@
+<ion-view view-title="Conquer your enemy!" class="gameView">
+  <ion-content class="center-content">
+    <h1 animate-change="currentGame.round" animate-class="bounceIn" class="text-center animated">Round {{ currentGame.round + 1 }}</h1>
+    <div class="card">
+      <div class="list">
+        <h3 animate-change="currentGame.currentPlayer.name" animate-class="tada" class="padding animated">{{ currentGame.currentPlayer.name }}</h3>
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Select move:
+          </div>
+          <select ng-model="currentGame.selectedMove">
+            <option ng-repeat="move in currentGame.moves track by move" value="{{move}}">
+              {{move}}
+            </option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </ion-content>
+  <ion-footer-bar class="bar-light">
+			<div class="button-bar">
+				<button class="button button-balanced icon ion-checkmark-round" ng-click="saveMove()">Ok</button>
+      </div>
+  </ion-footer-bar>
+</ion-view>

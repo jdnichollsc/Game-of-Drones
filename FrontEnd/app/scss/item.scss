@@ -1,0 +1,33 @@
+.itemView{
+	h1 {
+		font-size: 4em;
+		color: white;
+	}
+	button{
+		font-size: 26px;
+	}
+	.scroll-content {
+		background: linear-gradient(145deg, #206AA7, #00508D, #002F57, #442144);
+		background-size: 800% 800%;
+		animation: background 26s ease infinite;
+		
+		.scroll{
+			height: 100%;
+			.row-center {
+				height: 100%;
+			}
+		}
+	}
+	.labelRequired {
+		border: none;
+		padding: 0px;
+		margin: 0;
+		top: -8px;
+		left: 16px;
+	}
+}
+@keyframes background { 
+	0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}

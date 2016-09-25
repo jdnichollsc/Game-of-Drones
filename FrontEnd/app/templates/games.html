@@ -1,0 +1,36 @@
+<ion-view class="itemView" hide-nav-bar="true">
+	<ion-content class="padding">
+		<h1 class="text-center">Top Players</h1>
+		<div class="list card">
+			<div class="row item item-divider text-center">
+				<div class="col">Position</div>
+				<div class="col">Player</div>
+			</div>
+			<div class="item row text-center" ng-repeat="player in games.players | orderBy:'-games.length'">
+				<div class="col">
+					{{ $index + 1 }}
+				</div>
+				<div class="col">
+					{{ player.name }}
+				</div>
+			</div>
+		</div>
+		<h1 class="text-center">Games</h1>
+		<div class="list">
+			<div class="card" ng-repeat="game in games.allGames">
+				<div class="item">
+					{{ game.firstPlayer + " - " + game.secondPlayer }}
+				</div>
+				<div class="item item-body">
+					<div class="row item item-divider text-center">
+						<div class="col">Round</div>
+						<div class="col">Winner</div>
+					</div>
+					<div class="row item text-center" ng-repeat="round in game.score">
+						<div class="col">{{ round.round }}</div>
+						<div class="col">{{ round.winner || 'Tie!' }}</div>
+					</div>
+				</div>
+			</div>
+	</ion-content>
+</ion-view>

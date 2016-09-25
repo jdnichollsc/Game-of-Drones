@@ -1,0 +1,31 @@
+<ion-view class="itemView" hide-nav-bar="true">
+	<ion-content>
+		<div class="row row-center">
+			<div class="col col-center">
+				<h1 class="animated pulse text-center">Rock Paper Scissors</h1>
+				<div class="animated zoomIn padding">
+					<div class="list card">
+						<h4 class="text-center">Enter Player's name</h4>
+						<label class="item item-input item-stacked-label">
+							<span class="input-label">First Player</span>
+							<input type="text" placeholder="Agustina" ng-model="home.firstPlayerName">
+						</label>
+						<div class="item labelRequired" ng-show="!home.firstPlayerName">
+							<h4 class="assertive animated shake">First Player is required *</h4>
+						</div>
+						<label class="item item-input item-stacked-label">
+							<span class="input-label">Second Player</span>
+							<input type="text" placeholder="Marcelo" ng-model="home.secondPlayerName">
+						</label>
+						<div class="item labelRequired" ng-show="!home.secondPlayerName">
+							<h4 class="assertive animated shake">Second Player is required *</h4>
+						</div>
+					</div>
+					<button class="button button-block button-royal" ng-click="startGame()">
+						Start
+					</button>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
