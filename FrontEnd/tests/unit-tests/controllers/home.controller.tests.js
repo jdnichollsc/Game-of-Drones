@@ -20,7 +20,23 @@ describe('HomeController', function() {
 	beforeEach(inject(function($controller, $rootScope, $injector) {
         scope = $rootScope.$new();
 		
-		modelServiceMock = $injector.get('Model');
+		//modelServiceMock = $injector.get('Model');
+        modelServiceMock = {
+            Game: jasmine.createSpyObj('Game spy', [ 'getInstance' ])
+        };
+        var Player = function(){
+            this.name = null;
+            this.moves = [];
+            this.setName = function(){};
+            this.setMove = function(){};
+        };
+        modelServiceMock.Game.getInstance.and.returnValue({
+            firstPlayer : new Player(),
+            secondPlayer : new Player(),
+            score: [],
+            winner: null,
+            saved: false
+        });
 
 		stateMock = jasmine.createSpyObj('$state spy', ['go']);		
 		ionicPopupMock = jasmine.createSpyObj('$ionicPopup spy', ['alert']);
@@ -36,6 +52,17 @@ describe('HomeController', function() {
         scope.$emit('$ionicView.enter');
         scope.$digest();
 	}));
+
+    describe('when the $ionicView.enter is executed,', function() {
+        
+        it('should have a new instance of the game', function () {
+            spyOn(scope, '$on').and.callThrough();
+            scope.$on('$ionicView.enter');
+
+            expect(scope.$on).toHaveBeenCalledWith('$ionicView.enter');
+            expect(modelServiceMock.Game.getInstance).toHaveBeenCalled();
+        });
+    });
 
     describe('#startGame', function() {
 
