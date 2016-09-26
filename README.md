@@ -71,6 +71,25 @@ Like so:
   `./app/index.html` | The init page.
   `./www/css/` | Other css styles like **[Animate.css](https://daneden.github.io/animate.css/)**, etc.
   `./www/lib` | Scripts downloaded using bower.
+  
+## Tests
+
+**1. Unit Tests With Jasmine & Karma**:
+ 
+  To run the unit tests, you can execute the following commands using CLI:
+  
+  * cd tests
+  * karma start unit-tests.conf.js
+
+
+**2. End-To-End Tests With Jasmine & Protractor**:
+ 
+  * To run the E2E tests on Chrome, you can execute the following commands using CLI:
+    - ionic serve --nobrowser
+
+  * Using another command line
+    - cd tests
+    - protractor e2e-tests.conf.js
 
 ## Happy coding
 Made with <3
