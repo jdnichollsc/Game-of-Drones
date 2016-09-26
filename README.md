@@ -60,7 +60,7 @@ Like so:
     *To debug the application, you can use:*
       - **[Visual Studio Code](https://code.visualstudio.com/)**
       
-#Template Structure
+## Template Structure
 
   Path         | Explanation
   ----------   | -------------
@@ -72,7 +72,7 @@ Like so:
   `./www/css/` | Other css styles like **[Animate.css](https://daneden.github.io/animate.css/)**, etc.
   `./www/lib` | Scripts downloaded using bower.
 
-# Happy coding
+## Happy coding
 Made with <3
 
 <img width="150px" src="http://phaser.azurewebsites.net/assets/nicholls.png" align="right">
