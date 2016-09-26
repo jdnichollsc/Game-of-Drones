@@ -5,8 +5,8 @@
 		.module('App')
 		.controller('HomeController', HomeController);
 
-	HomeController.$inject = ['$scope', '$ionicPopup', 'Modals', 'Model', '$state', '$ionicHistory'];
-	function HomeController($scope, $ionicPopup, Modals, Model, $state, $ionicHistory) {
+	HomeController.$inject = ['$scope', '$ionicPopup', 'Model', '$state', '$ionicHistory'];
+	function HomeController($scope, $ionicPopup, Model, $state, $ionicHistory) {
 		
 		var myGame;
 		$scope.home = {

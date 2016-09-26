@@ -52,6 +52,7 @@
             }
             Model.Move.getMoves().then(function(moves){
                 $scope.currentGame.moves = Object.keys($filter('groupBy')(moves, 'move'));
+                $scope.currentGame.selectedMove = $scope.currentGame.moves[0];
             });
             Model.Game.checkWinner();
             if(myGame.winner){
