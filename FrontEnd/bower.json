@@ -2,7 +2,8 @@
   "name": "App",
   "private": true,
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#master"
+    "ionic": "driftyco/ionic-bower#master",
+    "angular-mocks": "^1.5.8"
   },
   "preen": {
     "angular-filter": [

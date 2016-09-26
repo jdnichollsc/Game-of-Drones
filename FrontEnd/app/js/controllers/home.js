@@ -46,8 +46,12 @@
 
 		$scope.$on('$ionicView.enter', function(){
 			myGame = Model.Game.getInstance();
-			$scope.home.firstPlayerName = myGame.firstPlayer.name;
-			$scope.home.secondPlayerName = myGame.secondPlayer.name;
+			if(myGame.firstPlayer){
+				$scope.home.firstPlayerName = myGame.firstPlayer.name;
+			}
+			if(myGame.secondPlayer){
+				$scope.home.secondPlayerName = myGame.secondPlayer.name;
+			}
 		});
 	}
 })();
