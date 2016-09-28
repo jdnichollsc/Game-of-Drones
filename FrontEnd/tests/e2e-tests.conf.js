@@ -11,5 +11,9 @@ exports.config = {
     ],
     jasmineNodeOpts: {
         isVerbose: true,
-    }
+    },
+    multiCapabilities: [
+        // { 'browserName': 'firefox' }, 
+        { 'browserName': 'chrome' }
+    ]
 };
