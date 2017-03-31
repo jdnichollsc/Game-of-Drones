@@ -15,7 +15,7 @@ Like so:
 * Rock beats scissors
 * Scissors beat Paper
 
-###**Note**: The first player to beat the other player 3 times wins the battle.
+### **Note**: The first player to beat the other player 3 times wins the battle.
 
 <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen1.png">
 <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen6.png">
