@@ -17,12 +17,15 @@ Like so:
 
 ### **Note**: The first player to beat the other player 3 times wins the battle.
 
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen1.png">
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen6.png">
+<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen1.png">|
+<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen6.png">|
 <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen2.png">
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen3.png">
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen4.png">
+:---: |:---: |:---: |
+
+<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen3.png">|
+<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen4.png">|
 <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen5.png">
+:---: |:---: |:---: |
 
 
 ## **Installation**
