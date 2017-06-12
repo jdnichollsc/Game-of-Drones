@@ -1,8 +1,6 @@
 # Game of Drones
 Conquer your enemy!
 
-<img width="300px" src="https://cdn.meme.am/instances/500x/58208541.jpg">
-  
 ## **Synopsis**
 
 In Game of Drones there are two players trying to conquer each other.
@@ -60,8 +58,8 @@ Like so:
     - npm install
     - npm start
 
-    *To debug the application, you can use:*
-      - **[Visual Studio Code](https://code.visualstudio.com/)**
+   *To debug the application, you can use:*
+     - **[Visual Studio Code](https://code.visualstudio.com/)**
       
 ## Template Structure
 
