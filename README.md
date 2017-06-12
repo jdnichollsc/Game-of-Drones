@@ -58,7 +58,7 @@ Like so:
     - npm install
     - npm start
 
-   *To debug the application, you can use:*
+    *To debug the application, you can use:*
      - **[Visual Studio Code](https://code.visualstudio.com/)**
       
 ## Template Structure
