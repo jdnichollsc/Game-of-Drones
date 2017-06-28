@@ -91,6 +91,10 @@ Like so:
   * Using another command line
     - cd tests
     - protractor e2e-tests.conf.js
+    
+## Supporting
+I believe in Unicorns 🦄
+Support [me](http://www.paypal.me/jdnichollsc/2), if you do too.
 
 ## Happy coding
 Made with <3
