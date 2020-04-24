@@ -15,15 +15,30 @@ Like so:
 
 ### **Note**: The first player to beat the other player 3 times wins the battle.
 
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen1.png">|
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen6.png">|
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen2.png">
-:---: |:---: |:---: |
-
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen3.png">|
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen4.png">|
-<img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen5.png">
-:---: |:---: |:---: |
+<table>
+  <tr>
+    <td>
+      <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen1.png">
+    </td>
+    <td>
+      <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen6.png">
+    </td>
+    <td>
+      <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen2.png">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen3.png">
+    </td>
+    <td>
+      <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen4.png">
+    </td>
+    <td>
+      <img width="242px" height="411px" src="FrontEnd/gh-pages/images/screen5.png">
+    </td>
+  </tr>
+</table>
 
 
 ## **Installation**
@@ -99,4 +114,4 @@ Support [me](http://www.paypal.me/jdnichollsc/2), if you do too.
 ## Happy coding
 Made with <3
 
-<img width="150px" src="http://phaser.azurewebsites.net/assets/nicholls.png" align="right">
+<img width="150px" src="https://github.com/jdnichollsc/jdnichollsc.github.io/blob/master/assets/nicholls.png?raw=true" align="right">
